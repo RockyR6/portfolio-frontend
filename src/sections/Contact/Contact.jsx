@@ -13,7 +13,7 @@ function Contact() {
     e.preventDefault();
 
     try {
-      const response = await fetch("http://https://portfolio-backend-rho-ashy.vercel.app/", {
+      const response = await fetch("https://portfolio-backend-rho-ashy.vercel.app/", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(formData),
