@@ -1,7 +1,7 @@
 import styles from './ProjectsStyles.module.css';
 import weatericon from '../../assets/weather-icon.png';
 import freshBurger from '../../assets/fresh-burger.png';
-import hipsster from '../../assets/hipsster.png';
+import viberr from '../../assets/viberr.png';
 import todoicon from '../../assets/todo.png.png';
 import ProjectCard from '../../common/ProjectCard';
 
@@ -22,12 +22,12 @@ function Projects() {
           h3="FEEDme"
           p="Online Restaurant"
         />
-        {/* <ProjectCard
-          src={hipsster}
-          link="https://github.com/Ade-mir/company-landing-page-2"
-          h3="Hipsster"
-          p="Glasses Shop"
-        /> */}
+        <ProjectCard
+          src={viberr}
+          link="https://instagramclone-tdhc.onrender.com"
+          h3="InstagramClone"
+          p="Connect with your friends"
+        />
         <ProjectCard
           src={todoicon}
           link="https://to-do-list-umber-eta.vercel.app/"
