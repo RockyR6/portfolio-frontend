@@ -23,6 +23,8 @@ function Skills() {
       <div className={styles.skillList}>
         <SkillList src={checkMarkIcon} skill="MongoDB" />
         <SkillList src={checkMarkIcon} skill="Next JS" />
+        <SkillList src={checkMarkIcon} skill="Prisma" />
+        <SkillList src={checkMarkIcon} skill="SQL" />
         <SkillList src={checkMarkIcon} skill="Tailwind CSS" />
       </div>
       <hr />
