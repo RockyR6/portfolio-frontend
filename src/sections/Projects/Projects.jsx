@@ -5,7 +5,7 @@ import viberr from '../../assets/viberr.png';
 import todoicon from '../../assets/todo.png.png';
 import ProjectCard from '../../common/ProjectCard';
 import logocart from '../../assets/LogoCart.png';
-import ChatIcon from '../../assets/chat_big.sgv';
+import ChatIcon from '../../assets/chat_big.svg';
 
 function Projects() {
   return (
