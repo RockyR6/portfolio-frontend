@@ -5,6 +5,7 @@ import viberr from '../../assets/viberr.png';
 import todoicon from '../../assets/todo.png.png';
 import ProjectCard from '../../common/ProjectCard';
 import logocart from '../../assets/LogoCart.png';
+import ChatIcon from '../../assets/chat_big.sgv';
 
 function Projects() {
   return (
@@ -24,6 +25,12 @@ function Projects() {
           p="Weather App"
         />
         <ProjectCard
+          src={ChatIcon}
+          link="https://chat-app-five-flame.vercel.app/"
+          h3="MeChat"
+          p="Online Chatting"
+        />
+         <ProjectCard
           src={freshBurger}
           link="https://feed-me-cyan.vercel.app/"
           h3="FEEDme"
